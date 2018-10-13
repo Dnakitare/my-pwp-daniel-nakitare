@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<title>Daniel Nakitare's PWP: Milestone 1</title>
 	</head>
 	<body>
 		<h2>Purpose</h2>
