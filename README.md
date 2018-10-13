@@ -1,2 +1,2 @@
 # my-pwp-daniel-nakitare
-Personal website
+Personal website to showcase my portfolio
