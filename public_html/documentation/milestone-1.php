@@ -13,7 +13,7 @@
 		<p>To acquire full-time employment or an internship.</p>
 		<h1>Persona</h1>
 		<p><strong>Name:</strong>John Doe</p>
-		<p><strong>Age:</strong>43</p>
+		<p><strong>Age:</strong>39</p>
 		<p><strong>Role:</strong> Hiring manager at Foo Dev Shop</p>
 		<p><strong>Hobbies:</strong> Cycling, Hiking, FPV Drone Racing</p>
 		<p><strong>Technology Used:</strong></p>
@@ -31,9 +31,13 @@
 			</ul>
 		<p><strong>Dislikes:</strong></p>
 			<ul>
-				<li>Content not ordered by importance</li>
-				<li>Time wasting UI choices</li>
-				<li></li>
+				<li>Scrolling through personal web pages to find professional network links</li>
+				<li>Bland, impersonal, candidate sites</li>
+				<li>Bad design choices</li>
 			</ul>
+		<p><strong>Motivation:</strong></p>
+		<p>Looking for a full-stack developer to replace a departing team member on a critical project that is already behind schedule.</p>
+		<p><strong>User Case:</strong></p>
+		<p>This is where I describe John Doe's use case for my personal site</p>
 	</body>
 </html>
