@@ -38,6 +38,6 @@
 		<p><strong>Motivation:</strong></p>
 		<p>Looking for a full-stack developer to replace a departing team member on a critical project that is already behind schedule.</p>
 		<p><strong>User Case:</strong></p>
-		<p>This is where I describe John Doe's use case for my personal site</p>
+		<p>John is searching for the right candidate to fill a newly empty spot on the development team of his small start-up. The previous candidate was a solid full-stack developer but lacked design sense when it came to frontend development. John has been looking at the personal web pages of entry-level developers in Albuquerque after hearing that the Deep Dive Bootcamp has recently graduated a new cohort. He recently met on of the graduates at a tech mixer and wants to find out if the new dev has not only the technical skill but design sense that he needs to complete the project and add value to the company.</p>
 	</body>
 </html>
