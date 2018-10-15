@@ -30,5 +30,10 @@
 				<li>Idea meritocracy</li>
 			</ul>
 		<p><strong>Dislikes:</strong></p>
+			<ul>
+				<li>Content not ordered by importance</li>
+				<li>Time wasting UI choices</li>
+				<li></li>
+			</ul>
 	</body>
 </html>
