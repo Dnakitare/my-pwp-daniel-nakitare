@@ -12,7 +12,7 @@
 		<h2>Goal</h2>
 		<p>To acquire full-time employment or an internship.</p>
 		<h1>Persona</h1>
-		<img src="man-with-glasses.jpg" alt="Johan Abels">
+		<img src="man-with-glasses.jpg" height="400" alt="Johan Abels">
 		<p><strong>Name:</strong>Johan Abels</p>
 		<p><strong>Age:</strong>39</p>
 		<p><strong>Role:</strong> Hiring manager at Foo Dev Shop</p>
