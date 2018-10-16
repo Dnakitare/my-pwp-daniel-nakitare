@@ -12,7 +12,7 @@
 		<h2>Goal</h2>
 		<p>To acquire full-time employment or an internship.</p>
 		<h1>Persona</h1>
-		<p><strong>Name:</strong>John Doe</p>
+		<p><strong>Name:</strong>Johan Abels</p>
 		<p><strong>Age:</strong>39</p>
 		<p><strong>Role:</strong> Hiring manager at Foo Dev Shop</p>
 		<p><strong>Hobbies:</strong> Cycling, Hiking, FPV Drone Racing</p>
@@ -38,6 +38,6 @@
 		<p><strong>Motivation:</strong></p>
 		<p>Looking for a full-stack developer to replace a departing team member on a critical project that is already behind schedule.</p>
 		<p><strong>User Case:</strong></p>
-		<p>John is searching for the right candidate to fill a newly empty spot on the development team of his small start-up. The previous candidate was a solid full-stack developer but lacked design sense when it came to frontend development. John has been looking at the personal web pages of entry-level developers in Albuquerque after hearing that the Deep Dive Bootcamp has recently graduated a new cohort. He recently met on of the graduates at a tech mixer and wants to find out if the new dev has not only the technical skill but design sense that he needs to complete the project and add value to the company.</p>
+		<p>John is searching for the right candidate to fill a newly empty spot on the development team of his small start-up. The previous candidate was a solid full-stack developer but lacked design sense when it came to frontend development. John has been looking at the personal web pages of entry-level developers in Albuquerque after hearing that the Deep Dive Bootcamp has recently graduated a new cohort. He recently met on of the graduates at a tech mixer and wants to find out if the new dev has not only the technical skill but design sense that he needs to complete the current project and hopefully stay on to add value to the company in the long term.</p>
 	</body>
 </html>
