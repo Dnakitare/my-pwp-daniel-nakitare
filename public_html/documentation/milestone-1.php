@@ -15,11 +15,12 @@
 		<p><strong>Name:</strong>Johan Abels</p>
 		<p><strong>Age:</strong>39</p>
 		<p><strong>Role:</strong> Hiring manager at Foo Dev Shop</p>
-		<p><strong>Hobbies:</strong> Cycling, Hiking, FPV Drone Racing</p>
+		<p><strong>Hobbies:</strong> Cycling, Hiking, FPV Drone Racing, Eve Online</p>
 		<p><strong>Technology Used:</strong></p>
 			<ul>
 				<li>Hades Canyon NUC i7-8809G Windows 10 Home</li>
 				<ul>
+					<li>Asus PG348Q Monitor</li>
 					<li>Razer Naga Trinity Mouse</li>
 					<li>Razer Huntsman Keyboard</li>
 				</ul>
