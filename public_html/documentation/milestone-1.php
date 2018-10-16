@@ -19,6 +19,10 @@
 		<p><strong>Technology Used:</strong></p>
 			<ul>
 				<li>Hades Canyon NUC i7-8809G Windows 10 Home</li>
+				<ul>
+					<li>Razer Naga Trinity Mouse</li>
+					<li>Razer Huntsman Keyboard</li>
+				</ul>
 				<li>13" Macbook Pro 2017 OS X 10.14</li>
 				<li>Google Pixel 3</li>
 				<li>Airpods</li>
