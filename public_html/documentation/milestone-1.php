@@ -8,7 +8,7 @@
 
 	<body>
 		<h2>Purpose</h2>
-		<p>To provide potential employers with my information and show case my portfolio.</p>
+		<p>To provide potential employers with my information and showcase my portfolio.</p>
 		<h2>Audience</h2>
 		<p>Professional peers and potential employers</p>
 		<h2>Site Goal</h2>
