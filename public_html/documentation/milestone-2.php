@@ -13,5 +13,8 @@
 		<p>I want this to be a responsive carousel containing 3-5 examples of my best work. Pop hovers will supply more information about my contribution to each project and the technology used.</p>
 		<h2>Contact:</h2>
 		<p>This section will contain a simple contact form and my professional email address. My professional social media links will live in the floating navigation bar.</p>
+		<h2>Wireframes:</h2>
+		<p><strong>Mobile Version</strong></p>
+		<img src="PWP-wireframe-mobile.png" alt="Mobile Wireframe">
 	</body>
 </html>
