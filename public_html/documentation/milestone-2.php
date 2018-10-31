@@ -14,6 +14,6 @@
 		<h2>Contact:</h2>
 		<p>This section will contain a simple contact form and my professional email address. My professional social media links will be easily accessible directly below the contact form.</p>
 		<h2>Wireframe:</h2>
-		<img src="PWP-Wireframe.png" alt="Wireframe">
+		<img src="PWP-wireframe.png" alt="Wireframe">
 	</body>
 </html>
