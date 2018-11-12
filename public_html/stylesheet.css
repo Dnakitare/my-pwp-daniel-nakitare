@@ -7,13 +7,13 @@
 }
 
 .shimmer1 {
-	background: -webkit-linear-gradient(#000000, #434343);
+	background: -webkit-linear-gradient(#f91114, #f7d329);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .shimmer2 {
-	background: -webkit-linear-gradient(#434343, #000000);
+	background: -webkit-linear-gradient(#f7d326, #f12b2d);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
