@@ -34,7 +34,16 @@ html body {
 	background-color: black;
 }
 
+.card-body h4, p {
+	color: #f09d16;
+}
+
 .vertical-center {
 	display: flex;
 	align-items: center;
+}
+
+html .icon {
+	font-size: 3em;
+	color: #f07223;
 }
