@@ -11,19 +11,19 @@ html body {
 }
 
 .shimmer1 {
-	background: -webkit-linear-gradient(#040267, #41036f);
+	background: -webkit-linear-gradient( 5deg, #000000 , #0a07a8, #9005be);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .shimmer2 {
-	background: -webkit-linear-gradient(#1b148c, #5c06ab);
+	background: -webkit-linear-gradient( 5deg , #00072b, #0b02c5, #fc039d);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .card {
-	height: 100vh;
+	min-height: 100vh;
 	max-width: 50vw;
 	min-width: 50vw;
 	margin: 10rem auto;
@@ -46,4 +46,39 @@ html body {
 html .icon {
 	font-size: 3em;
 	color: #f07223;
+}
+
+html .carousel {
+	height: 100vh;
+}
+
+html .port {
+	max-width: 40vw;
+	justify-content: center;
+	align-items: center;
+}
+
+html .fluid-container {
+	height: 100vh;
+	margin-top: 10vh;
+}
+
+html .fluid-container h3 {
+	color: #f07223;
+}
+
+html .fluid-container button {
+	background-color: #5f0f40;
+	color: #f07223;
+}
+
+.btn:hover {
+	background-color: #4e2ee0;
+	box-shadow: 0px 15px 20px rgba(229, 46, 117, 0.4);
+	color: #fc3506;
+	transform: translateY(-7px);
+}
+
+html section {
+	height: 25vh;
 }
