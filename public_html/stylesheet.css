@@ -6,7 +6,7 @@ html body {
 	margin: auto;
 	height: 100vh;
 	padding: 0 20vw;
-	background: url("images/mountain-watermelon-cropped.png") no-repeat center center;
+	background: url("images/mountain-watermelon-resized.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -68,15 +68,19 @@ html .fluid-container h3 {
 }
 
 html .fluid-container button {
-	background-color: #5f0f40;
-	color: #f07223;
+	background-color: #715b5d;
+	color: #ffffff;
+}
+
+html textarea {
+	color: lightgray;
 }
 
 .btn:hover {
-	background-color: #4e2ee0;
-	box-shadow: 0px 15px 20px rgba(229, 46, 117, 0.4);
+	background-color: #55147b;
+	box-shadow: 0px 10px 15px #fc6a38;
 	color: #fc3506;
-	transform: translateY(-7px);
+	transform: translateY(-3px);
 }
 
 html section {
