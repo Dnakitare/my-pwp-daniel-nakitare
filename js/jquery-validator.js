@@ -53,8 +53,20 @@ $(document).ready(function() {
 			$("#form").ajaxSubmit({
 				type: "POST",
 				url: $("#form").attr("action"),
-			})
 
+				success: function(ajaxOutput) {
+					//clear the output area's formatting
+					$("#output-area").css("display", "clear");
+
+					// write server's reply to the DOM
+					$("#output-area").html(ajaxOutput);
+
+					// reset the form if it was successful
+					if($(".alert-success").length >= 1) {
+						$("#form")[0].reset();
+					}
+				}
+			})
 		}
-	})
-})
+	}); // end validate function
+})	// end document.ready()
