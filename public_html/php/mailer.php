@@ -7,7 +7,7 @@
 
 ini_set('display_errors', 1);
 // require all composer dependencies
-require_once (dirname(__DIR__, 2) . "/vendor/autoloader.php");
+require_once (dirname(__DIR__, 2) . "/vendor/autoload.php");
 require_once ("mail-config.php");
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
@@ -27,7 +27,7 @@ try {
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING,FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create Swift message
-	$swiftMessage = new Swift_MEssage();
+	$swiftMessage = new Swift_Message();
 	/**
 	 * Attach the sender to the message.
 	 * THis takes the form of an associative array where $email is the key for the real name.
@@ -78,7 +78,7 @@ try {
 		throw(new RuntimeException("unable to send email"));
 	}
 	// report a successful send!
-	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+	echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Email successfully sent!</strong></div>";
 } catch(Exception $exception) {
 	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }
