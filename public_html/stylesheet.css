@@ -2,6 +2,10 @@ html body {
 	background-color: rgb(0, 0, 0);
 }
 
+html .fluid-container {
+	height: 100vh;
+	margin-top: 10vh;
+}
 .container {
 	padding: 0;
 	margin: 0;
@@ -9,7 +13,8 @@ html body {
 
 .container-fluid {
 	padding: 0;
-	margin: 0;
+	height: 100vh;
+	margin-top: 10vh;
 }
 
 .hero2 {
@@ -62,13 +67,7 @@ html .icon i:hover {
 	font-size: 3.15em;
 }
 
-.card {
-	max-width: 50vw;
-	min-width: 50vw;
-	margin: 10rem auto;
-	background-color: black;
-}
-
-.card-body {
-	background-color: black;
+html .carousel-inner .item img {
+	margin: auto;
+	height: 25vh;
 }

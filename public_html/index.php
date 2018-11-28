@@ -92,11 +92,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid">
+		<div class="container-fluid d-flex align-items-center">
 			<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade mx-auto" data-ride="carousel">
 				<div class="carousel-inner d-flex align-items-center justify-content-center" role="listbox">
 					<div class="carousel-item active ">
-						<img class="d-block w-100 my-auto" src="images/icons/505FTF-icon-v2.png" data-src="holder.js/900x400?theme=social" alt="First slide">
+						<img class="d-block w-100 my-auto" src="images/505FTF-icon-v2.png" data-src="holder.js/900x400?theme=social" alt="First slide">
 						<br>
 						<p class="text-center col-md-2">A mobile first web app for finding food truck locations in the ABQ area. Built with mySQL, PHP, JavaScript, Angular, CSS and HTML.</p>
 					</div>
@@ -111,6 +111,39 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-
+		<div class="fluid-container main-container mb-3">
+			<div class="col-md-5 m-auto">
+				<form id="form" role="form" action="php/mailer.php" method="post">
+					<br>
+					<h3 class="text-center">Get In Touch</h3>
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+					</div>
+					<br>
+					<div class="form-group">
+						<textarea class="form-control" type="textarea" id="message" name="message" placeholder="What's up?"
+									 maxlength="280"
+									 rows="7"></textarea>
+					</div>
+					<br>
+					<button type="submit" id="submit" name="submit" class="btn pull-right">Submit Form</button>
+					<div class="g-recaptcha" data-sitekey="6Lcc03sUAAAAAN9afkbbiTuLbQ__9twFO_RttW88"></div>
+				</form>
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
