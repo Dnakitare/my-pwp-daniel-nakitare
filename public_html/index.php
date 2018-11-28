@@ -27,10 +27,13 @@
 			src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<script src="public_html/js/jquery-validator.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="js/jquery-validator.js"></script>
 		<!-- google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- bootstrap and popper -->
@@ -40,7 +43,11 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
 				  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 				  crossorigin="anonymous"></script>
+		<!-- animate CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	</head>
+
+
 	<body>
 		<div class="jumbotron jumbotron-fluid vertical-center h-sm-100">
 			<div class="container pt-6">
@@ -52,7 +59,7 @@ mt-4 pt-4">Daniel Nakitare</h1>
 		<div class="card border-0 vertical-center">
 			<div class="card-body">
 				<h4 class="card-title text-center pb-3">About Me</h4>
-				<p class="card-text text-center">
+				<p class="animate slideInLeft card-text text-center ">
 					I am a full-stack web developer with a passion for creating mobile responsive web interfaces and
 					applications and helping people connect. I firmly believe that with the right tools, the right
 					motivation, and a little innovative thinking even the most daunting challenges can be overcome. Things
@@ -81,11 +88,28 @@ mt-4 pt-4">Daniel Nakitare</h1>
 				</div>
 			</div>
 		</div>
-// Portfolio
-		<div>
-
+		<div class="fluid-container vertical-center">
+			<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade mx-auto" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<a href="" target="_blank"><img class="d-block w-100 my-auto" src="images/icons/505FTF-icon-v2.png" data-src="holder.js/900x400?theme=social" alt="First slide"></a>
+						<div class="carousel-caption">
+							<br>
+							<p>A mobile first web app for finding food truck locations in the ABQ area. Build with mySQL, PHP, JavaScript, Angular, CSS and HTML. </p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselFadeExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 		</div>
-		<div class="fluid-container main-container vertical-center">
+		<div class="fluid-container main-container vertical-center mb-3">
 			<div class="col-md-5 m-auto">
 				<form id="form" role="form" action="php/mailer.php" method="post">
 					<br>
@@ -104,7 +128,8 @@ mt-4 pt-4">Daniel Nakitare</h1>
 					</div>
 					<br>
 					<div class="form-group">
-						<textarea class="form-control" type="textarea" id="message" name="message" placeholder="What's up?" maxlength="280"
+						<textarea class="form-control" type="textarea" id="message" name="message" placeholder="What's up?"
+									 maxlength="280"
 									 rows="7"></textarea>
 					</div>
 					<br>
