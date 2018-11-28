@@ -50,3 +50,14 @@ html .icon i{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.iconFade a {
+	text-decoration: none;
+}
+
+html .icon i:hover {
+	background: -webkit-linear-gradient(30deg, rgb(255, 255, 255), rgba(129, 129, 129, 0.93));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3.15em;
+}
