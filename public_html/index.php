@@ -68,6 +68,7 @@
 					<div class="row-fluid d-flex align-items-center justify-content-center text-center">
 						<p class="col-md-6 AbMeFade">I am a full-stack web developer with a passion for creating mobile responsive web interfaces and applications and helping people connect. I firmly believe that with the right tools, the right motivation, and a little innovative thinking even the most daunting challenges can be overcome. Things move fast these days and if you are not constantly learning and evolving your are being left behind.</p>
 					</div>
+					<br>
 				</div>
 			</div>
 		</div>
