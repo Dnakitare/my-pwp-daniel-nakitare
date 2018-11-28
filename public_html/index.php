@@ -59,6 +59,13 @@
 				</div>
 			</div>
 		</div>
+		<div id="trigger1" class="container-fluid d-flex justify-content-center middle">
+			<div class="container d-flex align-items-center justify-content-center aboutMe">
+				<div class="grid">
+
+				</div>
+			</div>
+		</div>
 
 	</body>
 </html>
