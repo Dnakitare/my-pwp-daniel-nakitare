@@ -48,6 +48,14 @@
 				href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	</head>
 	<body>
+		<div class="top container container-fluid center-block hero">
+			<div class="row-fluid hero2 d-flex align-items-center justify-content-center">
+				<div class="headline">
+					<h1 class="animated fadeInDown delay-1s title1 text-center">Daniel Nakitare</h1>
+					<h2 class="animated fadeInUp delay-2s title2 text-center">Web Developer</h2>
+				</div>
+			</div>
+		</div>
 
 	</body>
 </html>
