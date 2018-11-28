@@ -43,3 +43,10 @@ html body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+html .icon i{
+	font-size: 3em;
+	background: -webkit-linear-gradient(30deg, rgba(129, 129, 129, 0.93), rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

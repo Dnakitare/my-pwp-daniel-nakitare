@@ -69,6 +69,26 @@
 						<p class="col-md-6 AbMeFade">I am a full-stack web developer with a passion for creating mobile responsive web interfaces and applications and helping people connect. I firmly believe that with the right tools, the right motivation, and a little innovative thinking even the most daunting challenges can be overcome. Things move fast these days and if you are not constantly learning and evolving your are being left behind.</p>
 					</div>
 					<br>
+					<div class="row text-center icon iconFade">
+						<div class="col-xs-6 col-md-2 col-md-offset-1 mb-2">
+							<a href="https://dev.mysql.com/doc/" target="_blank"><i class="devicon-mysql-plain-wordmark"></i></a>
+						</div>
+						<div class="col-xs-6 col-md-2 mb-4">
+							<a href="http://php.net/docs.php" target="_blank"><i class="devicon-php-plain"></i></a>
+						</div>
+						<div class="col-xs-6 col-md-2 mb-4">
+							<a href="https://angular.io/" target="_blank"><i class="devicon-angularjs-plain"></i></a>
+						</div>
+						<div class="col-xs-6 col-md-2 mb-4">
+							<a href="https://html.com/" target="_blank"><i class="img-responsive devicon-html5-plain"></i></a>
+						</div>
+						<div class="col-xs-6 col-md-2 mb-4">
+							<a href="https://www.w3.org/TR/CSS/" target="_blank"><i class="img-responsive devicon-css3-plain"></i></a>
+						</div>
+						<div class="col-xs-6 col-md-2 mb-4">
+							<a href="https://www.javascript.com/" target="_blank"><i class="img-responsive devicon-javascript-plain"></i></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
