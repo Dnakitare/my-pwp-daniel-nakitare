@@ -92,6 +92,25 @@
 				</div>
 			</div>
 		</div>
+		<div class="container-fluid">
+			<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade mx-auto" data-ride="carousel">
+				<div class="carousel-inner d-flex align-items-center justify-content-center" role="listbox">
+					<div class="carousel-item active ">
+						<img class="d-block w-100 my-auto" src="images/icons/505FTF-icon-v2.png" data-src="holder.js/900x400?theme=social" alt="First slide">
+						<br>
+						<p class="text-center col-md-2">A mobile first web app for finding food truck locations in the ABQ area. Built with mySQL, PHP, JavaScript, Angular, CSS and HTML.</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselFadeExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 
 	</body>
 </html>
