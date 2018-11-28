@@ -2,3 +2,21 @@ html body {
 
 	background-color: rgba(0, 0, 0);
 }
+
+.container {
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.hero2 {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg/1280px-PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg");
+}

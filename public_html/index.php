@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		meta charset="UTF-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width = device-width, initial-scale= 1.0"/>
 		<title>Daniel Nakitare</title>
 		<meta name="theme-color" content="#818181">
@@ -47,6 +47,9 @@
 		<link rel="stylesheet"
 				href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	</head>
+
+
+
 	<body>
 		<div class="top container container-fluid center-block hero">
 			<div class="row-fluid hero2 d-flex align-items-center justify-content-center">
