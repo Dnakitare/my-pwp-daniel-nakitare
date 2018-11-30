@@ -29,7 +29,7 @@ $(document).ready(function() {
 			},
 			message: {
 				required: true,
-				maxLength: 280,
+				maxlength: 280,
 			}
 		},
 
@@ -44,7 +44,7 @@ $(document).ready(function() {
 			},
 			message: {
 				required: "Please enter a message.",
-				maxLength: "280 characters max."
+				maxlength: "280 characters max."
 			}
 		},
 
@@ -59,7 +59,7 @@ $(document).ready(function() {
 					$("#output-area").css("display", "clear");
 
 					// write server's reply to the DOM
-					$("#output-area").html(ajaxOutput);
+					$("#output-area1").html(ajaxOutput);
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {

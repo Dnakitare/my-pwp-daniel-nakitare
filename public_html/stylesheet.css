@@ -46,15 +46,19 @@ html body {
 	-webkit-text-fill-color: transparent;
 }
 
+.aboutMe h3 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.aboutMe p {
+	font-family: 'Noto Sans', sans-serif;
+}
+
 html .icon i{
 	font-size: 3em;
 	background: -webkit-linear-gradient(30deg, rgba(129, 129, 129, 0.93), rgb(255, 255, 255));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-.iconFade a {
-	text-decoration: none;
 }
 
 html .icon i:hover {
@@ -66,6 +70,20 @@ html .icon i:hover {
 
 form h3 {
 	background: -webkit-linear-gradient(30deg, rgba(129, 129, 129, 0.93), rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+html .portfolio h4 {
+	font-family: 'Fjalla One', sans-serif;
+	background: -webkit-linear-gradient(90deg, rgba(159, 159, 159, 0.93), rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+html .portfolio p {
+	font-family: 'Noto Sans', sans-serif;
+	background: -webkit-linear-gradient(90deg, rgba(159, 159, 159, 0.93), rgb(255, 255, 255));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

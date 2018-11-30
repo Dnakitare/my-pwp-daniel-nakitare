@@ -34,6 +34,7 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
 		<!-- coding icons -->
 		<link rel="stylesheet"
 				href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -74,33 +75,39 @@
 					<br>
 					<div id="iconFade" class="row text-center icon">
 						<div class="col-xs-6 col-md-2 col-md-offset-1 mb-2">
-							<a href="https://dev.mysql.com/doc/" target="_blank"><i class="devicon-mysql-plain-wordmark"></i></a>
+							<a href="https://dev.mysql.com/doc/" target="_blank" style="text-decoration: none"><i class="devicon-mysql-plain-wordmark"></i></a>
 						</div>
 						<div class="col-xs-6 col-md-2 mb-4">
-							<a href="http://php.net/docs.php" target="_blank"><i class="devicon-php-plain"></i></a>
+							<a href="http://php.net/docs.php" target="_blank" style="text-decoration: none"><i class="devicon-php-plain"></i></a>
 						</div>
 						<div class="col-xs-6 col-md-2 mb-4">
-							<a href="https://angular.io/" target="_blank"><i class="devicon-angularjs-plain"></i></a>
+							<a href="https://angular.io/" target="_blank" style="text-decoration: none"><i class="devicon-angularjs-plain"></i></a>
 						</div>
 						<div class="col-xs-6 col-md-2 mb-4">
-							<a href="https://html.com/" target="_blank"><i class="img-responsive devicon-html5-plain"></i></a>
+							<a href="https://html.com/" target="_blank" style="text-decoration: none"><i class="img-responsive devicon-html5-plain"></i></a>
 						</div>
 						<div class="col-xs-6 col-md-2 mb-4">
-							<a href="https://www.w3.org/TR/CSS/" target="_blank"><i class="img-responsive devicon-css3-plain"></i></a>
+							<a href="https://www.w3.org/TR/CSS/" target="_blank" style="text-decoration: none"><i class="img-responsive devicon-css3-plain"></i></a>
 						</div>
 						<div class="col-xs-6 col-md-2 mb-4">
-							<a href="https://www.javascript.com/" target="_blank"><i class="img-responsive devicon-javascript-plain"></i></a>
+							<a href="https://www.javascript.com/" target="_blank" style="text-decoration: none"><i class="img-responsive devicon-javascript-plain"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid d-flex align-items-center">
-
+		<div class="container-fluid d-flex justify-content-center">
+			<div id="portfolio" class="m-auto portfolio">
+				<div class="text-center">
+					<h4>505 Food Truck Finder</h4>
+					<img src="images/505FTF-icon-v1.png" class="my-auto">
+					<p class="col-5 mx-auto">A mobile first web app for finding food truck locations in the ABQ area. Build with mySQL, PHP, JavaScript, Angular, CSS and HTML.</p>
+				</div>
+			</div>
 		</div>
 		<div class="fluid-container main-container mb-3">
-			<div class="col-md-5 m-auto">
-				<form id="form" role="form" action="php/mailer.php" method="post">
+			<div id="contact" class="col-md-5 m-auto">
+				<form id="form" role="form" novalidate action="php/mailer.php" method="post">
 					<br>
 					<h3 class="text-center">Get In Touch</h3>
 					<br>
@@ -118,7 +125,6 @@
 					<br>
 					<div class="form-group">
 						<textarea class="form-control" id="message" name="message" placeholder="What's up?"
-									 maxlength="280"
 									 rows="7"></textarea>
 					</div>
 					<br>
@@ -128,6 +134,11 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div id="output-area"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area1"></div>
 					</div>
 				</div>
 			</div>
