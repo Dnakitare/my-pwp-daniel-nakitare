@@ -143,5 +143,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="container d-flex align-items-center justify-content-center">
+			<br>
+			<a href="https://www.linkedin.com/in/daniel-nakitare" target="_blank"><img src="images/In-2CRev-121px-R.png" width="40px"></a>
+			<a href="https://github.com/Dnakitare" target="_blank"><img src="images/GitHub-Mark-Light-64px.png" width="40px"></a>
+			<br>
+		</div>
 	</body>
 </html>
