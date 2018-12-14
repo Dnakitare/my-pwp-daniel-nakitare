@@ -19,3 +19,16 @@ Additional resources:
 -[FontAwesome](https://fontawesome.com/) is a good quality free library for including iconography.
 
 Your Milestone 2a passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Keep up the momentum!
+
+## Milestone 3
+Your PWP looks awesome! I love the hover animations and the site looks good on mobile. It's simple but effective which I appreciate. 
+
+I would consider putting the recaptcha above the submit button on your contact form, and make sure to keep your javascript files together in the js directory in a small project like this. Your CSS is very organized and nice, but I don't know if you need to reference the html tag in it - that should be implied? But overall great job on your PWP.
+
+Your Milestone 3 passes at a Tier IV.
+
+Milestone 1 30(0.2) = 6\
+Milestone 2a 40(0.2) = 8\
+Milestone 2b 30(0.1) = 3\
+Milestone 3 40(0.5) = 20\
+Final 37/40
