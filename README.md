@@ -29,6 +29,6 @@ Your Milestone 3 passes at a Tier IV.
 
 Milestone 1 30(0.2) = 6\
 Milestone 2a 40(0.2) = 8\
-Milestone 2b 30(0.1) = 3\
+Milestone 2b 40(0.1) = 4\
 Milestone 3 40(0.5) = 20\
-Final 37/40
+Final 38/40
